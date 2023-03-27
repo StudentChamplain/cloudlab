@@ -66,7 +66,7 @@ function BrowseMovies() {
   // MARKUP 
   return (
     <div>
-      <h1>🎞 MFlix movies 🎬</h1>
+      <h1>🎞 MFlix films 🎬</h1>
 
       <section>
         <h4 className='m-3'>Browse our rich collection of {moviesCount} movies <button className='btn btn-outline-secondary my-2' onClick={() => setAreOptionsVisible(!areOptionsVisible)}>Filter</button></h4>
